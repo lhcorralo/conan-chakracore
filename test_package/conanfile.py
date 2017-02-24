@@ -24,4 +24,4 @@ class caresReuseConan(ConanFile):
 
     def test(self):
         # equal to ./bin/greet, but portable win: .\bin\greet
-        self.run(os.sep.join([".","bin", "ChakraCoreTest.exe"]))
+        self.run(os.sep.join([".","bin", "HelloWorld.exe"]))
